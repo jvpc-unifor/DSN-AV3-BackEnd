@@ -1,8 +1,26 @@
 {
   "dependencies": {
-    "@supabase/supabase-js": "^2.49.7",
+    "@supabase/supabase-js": "^2.49.10",
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "morgan": "^1.10.0"
-  }
+  },
+  "name": "dsn-av3-backend",
+  "version": "1.0.0",
+  "description": "Trabalho de Projeto Full Stack. Esse é 1 repositório de 2 necessários para a realização do trabalho. Esse contém a aplicação Node.js do BackEnd.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvpc-unifor/DSN-AV3-BackEnd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jvpc-unifor/DSN-AV3-BackEnd/issues"
+  },
+  "homepage": "https://github.com/jvpc-unifor/DSN-AV3-BackEnd#readme"
 }
