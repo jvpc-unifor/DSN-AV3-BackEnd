@@ -33,7 +33,7 @@ app.use(bodyParser.json());
 
 const supabase = 
     supabaseClient.createClient('https://qilxyfqwhslgskrzqnri.supabase.co', 
-        'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFpbHh5ZnF3aHNsZ3NrcnpxbnJpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDc3ODcxMDIsImV4cCI6MjA2MzM2MzEwMn0.aYq8VuWxlTVeLldp575tVvkr2JU2LDmLoslPWCnMiGY')
+        'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFpbHh5ZnF3aHNsZ3NrcnpxbnJpIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0Nzc4NzEwMiwiZXhwIjoyMDYzMzYzMTAyfQ.IUraWfFcNReZmA2lQCKiopm-DkPilEZ6yNmXDMm1i0A')
 
 
 app.get('/products', async (req, res) => {
